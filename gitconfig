@@ -1,0 +1,11 @@
+[core]
+    editor = vim
+[color]
+    ui = true
+[alias]
+    graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+[push]
+    default = matching
+[user]
+    name = iAgent Admin
+    email = admin@agent.csie.ntu.edu.tw
